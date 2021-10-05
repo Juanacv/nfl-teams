@@ -1,0 +1,51 @@
+    body {
+        font-family: arial,sans-serif;
+        font-size: 14px;
+    }
+    #acme-main, #footer-acme {
+        max-width: 720px;
+    }
+    .themed-grid-col {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+    }
+    .background-grid {
+        background-color: rgba(86, 61, 124, .15);
+    }
+    .border-grid {
+        border: 1px solid rgba(86, 61, 124, .2);
+    }
+    .row-no-margins {
+        margin-left: 0;
+        margin-right: 0;
+    } 
+    .nav-tabs {
+        border-bottom: none;
+    }   
+ 
+    .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
+        border-width: 2px;
+        border-color: #fff #fff #003F8E #fff;
+        isolation: auto;
+    } 
+    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+        border-width: 2px;
+        border-color: #fff #fff #99B9E6 #fff;
+        background-color: #4f5764;
+        color: #d1e4dd;
+        isolation: isolate;
+    }    
+
+    .nav-tabs #nav-afc-tab.active {
+        color: #495057;
+        background-color: #fff;
+        border-width: 2px;
+        border-color: #fff #fff #003F8E #fff;
+    }
+
+    .nav-tabs #nav-nfc-tab.active {
+        color: #495057;
+        background-color: #fff;
+        border-width: 2px;
+        border-color: #fff #fff #003F8E #fff;
+    }

@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: NFL Teams
-Plugin URI: http://acme.com
+Plugin URI: https://github.com/Juanacv/nfl-teams
 Description: Shows NFL Teams
 Version: 1.0
 Author: Juan Antonio Calderón Valverde
-Author URI: http://acme.com
+Author URI: https://github.com/Juanacv
 License: GPL
 */
 if (!defined('ABSPATH')) die();

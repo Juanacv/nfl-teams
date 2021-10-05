@@ -13,4 +13,4 @@ folder on wordpress. Go to the wordpress admin panel and click on the Plugins li
 
 ## What this plugin does
 
-This plugin creates a web page showing the NFL Teams data retrieved from the API endpoint URL provided in the documetation of the problem.
+This plugin creates a web page, with the shortcode nfl-teams, that shows the NFL Teams data retrieved from the API endpoint URL provided in the documetation of the problem.

@@ -155,7 +155,7 @@ class NFL_TEAMS_LAYOUT {
         $html .= '</div>';       
         $html .= '</div>';   
         $html .= '</article>';   
-        $html .= '<footer id="footer-acme" class="mx-auto"><span>ACME CO. '.date('Y').'</span></footer>';   
+        $html .= '<footer id="footer-acme" class="mx-auto"><span>ACME Sports. '.date('Y').'</span></footer>';   
         return $html;
     }
 }

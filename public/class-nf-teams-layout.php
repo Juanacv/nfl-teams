@@ -85,7 +85,7 @@ class NFL_TEAMS_LAYOUT {
         wp_enqueue_style( $this->plugin_name.'-nfl', plugins_url('css/nflteams.css',__FILE__), array($this->plugin_name.'-bootstrap'), $this->version, 'all' );
     }
     /**
-     * Returns html layout with NFL teams
+     * Returns html layout with the NFL teams
      */
     public function buildLayout() {
         $nfl = $this->getData();
